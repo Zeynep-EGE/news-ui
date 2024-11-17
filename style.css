@@ -127,6 +127,7 @@ span{
 
 .main-content{
     display: flex;
+    
 } 
 
 /*Aside Start-----------------------*/
@@ -134,7 +135,7 @@ span{
 aside{
     width: auto;
     height:100vh ;
-    padding-top: 5rem;
+    padding-top: 2rem;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     border-right: 1px solid   rgb(229 231 235);
@@ -197,7 +198,7 @@ aside{
 .main-container{
     height: 100vh;
     overflow-x: scroll;
-    padding-top: 5rem;
+    padding-top: 2rem;
     padding-bottom: 6rem;
     padding-right: 2.5rem;
   }  
