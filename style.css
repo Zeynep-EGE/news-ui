@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Onest", sans-serif;
+}
+
+body{
+    height: 100vh;
+    overflow: hidden;
+ }   
+
+/*Nav Bar Start--------------------------*/
+
+
+nav{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(229 231 235);
+    position: sticky;
+    top:0px ;
+}
+
+.nav-container{
+    padding-left: 3.9rem;
+    padding-right: 3rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: left;
+}
+
+.logo img{
+    margin-right: .4rem;
+}
+
+.logo h3{
+    margin-top: 1px;
+    font-size: 1.30rem;
+    line-height: 1.75rem;
+    color: rgb(79 70 229);
+    font-weight: 650;
+    align-items: center;
+}
+
+span{
+    color: rgb(107 114 128);
+}
+
+.links{
+    display: flex;
+}
+
+.links img{
+    width: 18px;
+    height: 18px;
+    margin-right: .375rem;
+}
+
+.flow{
+    background-color: rgb(99 102 241);
+    border-radius: .375rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    padding-top: .375rem;
+    padding-bottom: .375rem;
+    display: flex;
+    margin-right: .25rem;
+    
+}
+
+.flow h3{
+    font-size: 13px;
+    color: white;
+    font-weight: 500;
+    opacity: .9;
+}
+
+.flow img{
+    opacity: .9;
+}
+
+
+.developer{
+    border-radius: .375rem;
+    padding-left: .85rem;
+    padding-right: .85rem;
+    padding-top: .375rem;
+    padding-bottom: .375rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.developer img{
+    margin-right: .1rem;
+    opacity: 1;
+}
+
+.developer h3{
+    font-size: 14px;
+    color: rgb(75 85 99 );
+    font-weight: 500;
+    opacity: .8;
+}
+
+.menu{
+    display: none;
+    padding-top: 5px;
+    
+}
+
+.menu img{
+    width: 25px;
+    
+    height: 25px;
+}
+
+/*Nav Bar End-----------------------*/
+
+.main-content{
+    display: flex;
+} 
+
+/*Aside Start-----------------------*/
+
+aside{
+    width: auto;
+    height:100vh ;
+    padding-top: 5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    border-right: 1px solid   rgb(229 231 235);
+    display: flex;
+    align-items: start;
+    position: sticky;
+    top: 4.01rem;
+    
+}
+
+.list{
+    width: 16.5rem;
+    margin-top: .5rem;
+    padding-right: 1rem;
+    padding-left: 1.7rem;
+    text-align: start;
+}
+
+.list ul{
+    list-style: none;
+    margin: 0;  
+    padding: 0;
+    display: flex;
+    flex-flow: column nowrap ;
+    
+}
+
+.list li{
+    margin-bottom: 1.6rem;
+    line-height: 1.75rem;
+}
+
+
+.list a{
+    padding-top: .25rem;
+    text-decoration: inherit;
+    color: black;
+    font-weight: 500;
+
+}
+
+.list a h4{
+    font-size: 15px;
+    font-weight: 430;
+    padding-bottom: .3rem;
+}
+
+.list a p{
+    font-size: 13px; 
+    font-weight: 400;
+    margin-top: .095rem;
+    color: rgb(156 163 175 );
+    line-height: 1.25rem;
+}
+
+/*Asid End-----------------------*/
+
+/*Main Start-----------------------*/
+
+.main-container{
+    height: 100vh;
+    overflow-x: scroll;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+    padding-right: 2.5rem;
+  }  
+
+ .main-container h1{
+    color: rgb(75 85 99 );
+    font-weight: 700;
+ }
+
+ .main-container .main-p{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: rgb(156 163 175);
+    background-color: rgb(254 252 232 );
+    padding: 1rem;
+    border-left: 1px solid rgb(234 179 8);
+    border-left-width: 4px;
+    margin-top: .75rem;
+    margin-bottom: 2rem;
+}
+
+ .main-container h2{
+    color:rgb(75 85 99 );
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: .75rem;
+    padding-top: 1rem;
+    margin-bottom: 1.5rem;
+ }
+
+ .card-list{
+    display: flex;
+    flex-flow: row wrap;
+ }
+
+ .card-container{
+    margin: .8rem;
+    margin-bottom: 1.6rem;
+    
+ }
+
+ .card{
+    width: 13.5rem;
+    height: 11rem;
+    padding: 1.5rem;
+    border-radius: .75rem;
+    display: flex;
+    flex-flow: column nowrap;
+    box-shadow:  2px 5px 10px 8px   #e5e7eb ;
+ }
+
+ .card-header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+ }
+
+ .card-header h3{
+    color: rgb(107 114 128);
+    font-weight: 600; 
+    font-size: 13px;
+}
+
+ .card p{
+    padding-bottom: 1rem;
+    font-size: 13px;
+    color: rgb(156 163 175);
+ }
+
+ .card a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(99 102 241);
+ }
+
+ .main-container .second{
+    margin-top: 1.75rem;
+    margin-bottom: 1.5rem;
+ }
+
+
+/*Main End-----------------------*/
+
+/*---RESPONSİVE---*/
+
+@media only screen and (max-width: 1560px){
+
+    aside{
+        border-right:none ;
+    }
+
+    
+
+}
+
+@media only screen and (min-width: 1300px){
+
+    .main-container{
+        border-left: 1px solid rgb(229 231 235);;
+        padding-left: 4rem;
+        padding-right: 2.5rem;
+      }  
+
+      
+
+}
+
+
+@media only screen and (max-width: 767px) {
+    .nav-container{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+
+    .links{
+        display: none;
+    }
+
+    .menu{
+        display: inline;
+    }
+
+    
+
+    button{
+        border: none;
+        background-color: white;
+    }
+}
+
+@media only screen and (max-width: 638px){
+
+    nav{
+        z-index: 1;
+        opacity: 1;
+        background-color: white;
+    }
+
+    aside{
+        display: none;
+    }
+
+    .main-container{
+        z-index: 2;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .main-container h1{
+        font-size: 20px;
+        margin-top: 5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .main-container .main-p{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .main-container h2{
+        margin-left: 2rem;
+        margin-right: 2rem;
+     }
+    
+     .card-list{
+        display: block;
+     }
+    
+     .card-container{
+        margin-left: 2rem;
+        margin-right: 2rem;
+        
+     }
+    
+     .card{
+        width: 100%;
+        height: 9rem;
+        margin-bottom: 2rem;
+     }
+
+
+}
+
